@@ -38,7 +38,7 @@ export class LoginComponent implements OnInit {
         const { id } = res;
         console.log('response', id);
 
-        localStorage.setItem('access_token', id);
+        localStorage.setItem('access_token', "4v5cEzMjJBff9NY0F7oYZvCt7udH3DqNyDaD790KmgHaT2yPBcF3oimi33rV4KDM");
         this.route.navigate(['./dashboard/notes']);
       },
       error: (err) => {
